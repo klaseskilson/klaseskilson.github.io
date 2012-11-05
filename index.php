@@ -21,8 +21,12 @@
 	</head>
 	<body>
 		<div id="main">
-			<h1>Klas Eskilson</h1>
-			<p>Hej! Jag heter Klas. Du når mig lättast här: <a href="mailto:hej@klaseskilson.se" target="_blank" title="Maila mig!">hej@klaseskilson.se</a>.</p>
+			<header>
+				<h1>Klas Eskilson</h1>
+				<p>
+					Hej! Jag heter Klas. Du når mig lättast här: <a href="mailto:hej@klaseskilson.se" target="_blank" title="Maila mig!">hej@klaseskilson.se</a>.
+				</p>
+			</header>
 		</div>
 <?php
 /*
