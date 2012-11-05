@@ -16,8 +16,10 @@
 
 		<!-- adaptive and regular style -->
 		<link rel="stylesheet" href="css/main.css" media="all">
+		<!--
 		<link rel="stylesheet" href="css/grid.css" media="all">
 		<link rel="stylesheet" href="css/cols.css" media="all">
+		-->
 	</head>
 	<body>
 		<div id="main">
