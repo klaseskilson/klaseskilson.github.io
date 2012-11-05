@@ -26,7 +26,10 @@
 			<header>
 				<h1>Klas Eskilson</h1>
 				<p>
-					Hej! Jag heter Klas. Du når mig lättast här: <a href="mailto:hej@klaseskilson.se" target="_blank" title="Maila mig!">hej@klaseskilson.se</a>.
+					Hej! Jag heter Klas. Ibland gör jag saker på nätet. Gärna på <a href="http://femtjugo.se" target="_blank">520</a> som jag var med och startade.
+				</p>
+				<p>
+					Om du vill nå mig så gör du det lättast här: <a href="mailto:hej@klaseskilson.se" target="_blank" title="Maila mig!">hej@klaseskilson.se</a> eller <a href="http://twitter.com/eskilicious" target="_blank" title="Titta på Twitter då!">@Eskilicious</a>.
 				</p>
 			</header>
 		</div>
