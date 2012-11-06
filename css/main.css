@@ -17,11 +17,16 @@ header {
 	clear: both;
 	width: 50%;
 	margin: 10% auto;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
 }
 
 @media only screen and (max-width: 480px) {
 	header { 
-		width: 300px;
+		width: 80%;
+		padding: 0 10%;
 	}
 }
 

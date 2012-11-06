@@ -29,7 +29,7 @@
 					Hej! Jag heter Klas. Ibland gör jag saker på nätet. Gärna på <a href="http://femtjugo.se" target="_blank">520</a> som jag var med och startade.
 				</p>
 				<p>
-					Om du vill nå mig så gör du det lättast här: <a href="mailto:hej@klaseskilson.se" target="_blank" title="Maila mig!">hej@klaseskilson.se</a> eller <a href="http://twitter.com/eskilicious" target="_blank" title="Titta på Twitter då!">@Eskilicious</a>.
+					Om du vill nå mig så gör du det lättast på <a href="mailto:hej@klaseskilson.se" target="_blank" title="Maila mig!">hej@klaseskilson.se</a> eller <a href="http://twitter.com/eskilicious" target="_blank" title="Titta på Twitter då!">@Eskilicious</a>.
 				</p>
 			</header>
 		</div>
