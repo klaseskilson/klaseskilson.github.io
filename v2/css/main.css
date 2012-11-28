@@ -7,9 +7,10 @@ body {
 	width: 100%;
 	font-size: 100%;
 	color: #fff;
-	background: url('/img/klasse.jpg');
+	background: #000 url('/img/klasse.jpg');
 	background-size: cover;
 	background-position: top;
+	background-repeat: no-repeat;
 }
 
 ::selection {
@@ -66,12 +67,13 @@ a {
 		width: 80%;
 		padding: 0 10%;
 		margin: 10% auto;
-		text-shadow: 1px 1px 20px rgba(255, 255, 255, 0.5);
+		text-shadow: 2px 2px 20px rgba(255, 255, 255, 1);
 	}
 	body {
 		background-size: auto 480px;
 		background-repeat: no-repeat;
 		background-position: 0 220px;
+		background-color: #fff;
 		color: #000;
 		height: 600px;
 	}
