@@ -16,6 +16,7 @@
 
 		<!-- adaptive and regular style -->
 		<link rel="stylesheet" href="css/main.css" media="all">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Anaheim|Strait" media="all">
 	</head>
 	<body>
 		<div id="main">
@@ -29,5 +30,6 @@
 				</p>
 			</header>
 		</div>
+		<img src="img/klasselofi.jpg" id="klasse" />
 	</body>
 </html>
