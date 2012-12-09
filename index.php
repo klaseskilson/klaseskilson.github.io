@@ -30,6 +30,6 @@
 				</p>
 			</header>
 		</div>
-		<img src="img/klasselofi.jpg" id="klasse" />
+		<img src="img/klasselofi.jpg" id="klasse" alt="Klas Eskilson" />
 	</body>
 </html>
