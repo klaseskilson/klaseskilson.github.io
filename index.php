@@ -23,12 +23,12 @@
 					på <a href="http://twitter.com/eskilicious" target="_blank" title="Titta på Twitter då!">@Eskilicious</a>.
 				</p>
 				<p class="bottom hidden-phone">
-					<span id="continue">Fortsätt <i class="icon-hand-down"></i></span>
+					<a href="#om" id="continue">Fortsätt <i class="icon-hand-down"></i></a>
 				</p>
 			</section> <!-- #intro -->
 			<section id="content">
-				<h2>
-					Om mig
+				<h2 id="about">
+					Om mig<a name="om"></a>
 				</h2>
 				<div class="row-fluid">
 					<div class="span8">
