@@ -23,12 +23,12 @@
 					på <a href="http://twitter.com/eskilicious" target="_blank" title="Titta på Twitter då!">@Eskilicious</a>.
 				</p>
 				<p class="bottom hidden-phone">
-					<a href="#om" id="continue">Fortsätt <i class="icon-hand-down"></i></a>
+					<a href="#about" class="scroll" id="continue">Fortsätt <i class="icon-hand-down"></i></a>
 				</p>
 			</section> <!-- #intro -->
 			<section id="content">
 				<h2 id="about">
-					Om mig<a name="om"></a>
+					Om mig
 				</h2>
 				<div class="row-fluid">
 					<div class="span8">
@@ -38,7 +38,7 @@
 						</p>
 						<p>
 							Jag finns på diverse ställen på nätet, bland annat på
-							<a href="http://twitter.com/eskilicous"><i class="icon-comment"></i> twitter</a>,
+							<a href="http://twitter.com/eskilicious"><i class="icon-comment"></i> twitter</a>,
 							<a href="http://flickr.com/klaseskilson"><i class="icon-camera"></i> flickr</a> och
 							<a href="http://github.com/klaseskilson"><i class="icon-edit"></i> github</a>.
 						</p>
