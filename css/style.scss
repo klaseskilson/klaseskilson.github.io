@@ -1,0 +1,134 @@
+@charset "utf-8";
+/*
+	klaseskilson.se
+	copyright Klas Eskilson
+*/
+
+// importera mixins
+@import "mixins";
+
+// variables
+$links: #555555;
+$linkshover: lighten($links, 10%);
+
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arvo'), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/WJ6D195CfbTRlIs49IbkFw.woff) format('woff');
+}
+
+html,body {
+	margin:0;
+	padding:0;
+	height:100%; /* needed for container min-height */
+}
+
+#header div p{
+	margin: 10px;
+}
+#loader {
+	position:absolute;
+	width:100%;
+	height:2000%;
+	z-index:100;
+	background-color:#e2e0e0;
+
+	#load {
+		position:fixed;
+		width:206px;
+		left:50%;
+		margin-left:-103px;
+		top:50%;
+		margin-top:-103px;
+		text-align: center;
+	}
+}
+
+.card {
+	min-height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+
+	p {
+		font-size: 135%;
+		line-height: 160%;
+		font-family: 'Arvo', serif;
+
+		&:first-of-type {
+			font-size: 150%;
+			font-weight: bold;
+		}
+
+		a {
+			color: #fff;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+			@include transition;
+		}
+		a:hover {
+			color: darken(#fff, 5%);
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+		}
+	}
+
+	&#first, &#third {
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: top fixed;
+		color: white;
+
+		h1 {
+			position: absolute;
+			bottom: 70px;
+			left: 0;
+			width: 100%;
+			margin-left: 0;
+			font-size: 1000%;
+			text-align: center;
+			text-shadow: 0 0 10px rgba(0,0,0,0.2);
+			font-family: 'Arvo', serif;
+
+			span {
+				border: 5px solid #fff;
+				padding-left: 30px; padding-right: 30px;
+			}
+		}
+	}
+
+	&#first {
+		background-image: url('../img/bw_1x1.jpg');
+	}
+
+	&#second {
+		h2 {
+			text-align: center;
+			margin: 30px 0;
+			text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+			color: #fff;
+		}
+	}
+
+	&#third {
+		background-image: url('../img/color_1x1.jpg');
+	}
+
+	a.chevron {
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		width: 40px;
+		margin-left: -20px;
+		font-size: 35px;
+		text-align: center;
+		@include transition(bottom, 0.1s);
+		@include transition(color);
+		color: $links;
+
+		&:hover {
+			color: $linkshover;
+		}
+	}
+}
