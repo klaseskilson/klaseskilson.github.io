@@ -1,2 +1,4 @@
 /ep/*
 /img/*.psd
+*.DS_store
+/css/.sass-cache/*

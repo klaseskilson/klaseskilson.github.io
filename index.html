@@ -11,10 +11,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Bootstrap -->
-		<!-- Latest compiled and minified CSS -->
+		<!-- compiled and minified CSS -->
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-		<!-- Optional theme -->
-		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">
 		<!-- Klaseskilson! -->
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
@@ -99,19 +97,16 @@
 		</section>
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/vendor/jquery.parallax-1.1.3.js"></script>
 		<script>
 		window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
 
+		// remove loading overlay
 		$(window).load(function(){
 			$('body, html').scrollTop(0);
 			$("#loader").fadeToggle({display:"none"}, "slow");
 		});
 
 		$('a[data-toggle="scroll"]').click(function(event){event.preventDefault();$('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);});
-
-		$('.card.stick').parallax("50%", -1);
-		$('#third').parallax("50%", -1, "100%");
 
 		var colors = ['#f4d0ad', '#abe7f4', '#f7ca7d', '#91f9d3', '#f8c075', '#b2fad7',
 					  '#dbdbdb', '#fddcae', '#fb9d79', '#a0e3ff', '#abe7f4', '#CCCCCC',
