@@ -75,10 +75,12 @@ html,body {
 	}
 
 	&#first, &#third {
-		background-size: cover;
-		background-repeat: no-repeat;
 		// background-position: top fixed;
 		color: white;
+		background-repeat: no-repeat;
+		background-position: 50% 0;
+		background-size: cover;
+		background-attachment: fixed;
 
 		h1 {
 			position: absolute;
@@ -99,8 +101,7 @@ html,body {
 	}
 
 	&#first {
-		background: url('../img/bw_1x1.jpg') no-repeat top center fixed;
-		background-size: cover;
+		background-image: url('../img/bw_1x1.jpg');
 	}
 
 	&#second {
@@ -113,8 +114,7 @@ html,body {
 	}
 
 	&#third {
-		background: url('../img/color_1x1.jpg') no-repeat top center fixed;
-		background-size: cover;
+		background-image: url('../img/color_1x1.jpg');
 	}
 
 	a.chevron {
