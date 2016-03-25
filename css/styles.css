@@ -1,4 +1,3 @@
-@charset "utf-8";
 /*
 	klaseskilson.se
 	copyright Klas Eskilson
@@ -7,8 +6,7 @@
   font-family: 'Arvo';
   font-style: normal;
   font-weight: 400;
-  src: local("Arvo"), url(http://themes.googleusercontent.com/static/fonts/arvo/v5/WJ6D195CfbTRlIs49IbkFw.woff) format("woff"); }
-
+  src: local("Arvo"), url(//themes.googleusercontent.com/static/fonts/arvo/v5/WJ6D195CfbTRlIs49IbkFw.woff) format("woff"); }
 html, body {
   margin: 0;
   padding: 0;
@@ -107,4 +105,6 @@ html, body {
     transition: color 0.3s ease-in-out;
     color: #555555; }
     .card a.chevron:hover {
-      color: #6e6e6e; }
+      color: #6f6f6f; }
+
+/*# sourceMappingURL=styles.css.map */
