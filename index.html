@@ -1,116 +1,16 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Klas Eskilson</title>
-    <meta name="description" content="Klas Eskilson, msc student in media technology">
+    <meta name="description" content="Klas Eskilson, software developer in Stockholm, Sweden">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap -->
-    <!-- compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css">
-    <!-- Klaseskilson! -->
-    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <div id="loader">
-      <p id="load">Hello! Hold on...</p>
-    </div>
-    <section id="first" class="card stick">
+    <section>
       <h1>
-        Hello!
+        Hi
       </h1>
-      <a href="#second" class="chevron hidden-xs" data-toggle="scroll">
-        <span class="glyphicon glyphicon-chevron-down"></span>
-      </a>
     </section>
-    <section id="second" class="card">
-      <div class="container">
-        <div class="row" id="header">
-          <div class="col-sm-4">
-            <h2><span class="glyphicon glyphicon-user"></span></h2>
-            <p>
-              My name is Klas Eskilson.
-            </p>
-            <p>
-              I am a msc. student at Linköping University living in Norrköping, Sweden. I'm into web programming,
-              <a href="https://untappd.com/user/klaseskilson">craft beer</a>, rock climbing and running.
-            </p>
-            <p>
-              I am a part of the groupd developing and maintaining
-              <a href="http://vattentor.net">vattentor.net</a>, the ambitious web site
-              for the student bar Pub Vattentornet in Norrköping.
-              I have previously worked a lot as a programming mentor and teaching assistant
-              in several programming courses.
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <h2><span class="glyphicon glyphicon-send"></span></h2>
-            <p>
-              Contact me
-            </p>
-            <p>
-              I might pop up all over the internet at times, but the best way to reach me directly is to
-              drop me an email at
-              <a href="mailto:hello@klaseskilson.se">hello@klaseskilson.se</a>,
-              and I'll get back to you!
-            </p>
-            <p>
-              You can also reach me through <a href="https://linkedin.com/in/klaseskilson/">LinkedIn</a>
-              or <a href="https://twitter.com/eskilicious">Twitter</a>.
-            </p>
-          </div>
-          <div class="col-sm-4">
-            <h2><span class="glyphicon glyphicon-briefcase"></span></h2>
-            <p>
-              What I do
-            </p>
-            <p>
-              Most of the projects I'm involved in are developed through
-              <a href="https://github.com/klaseskilson">GitHub</a>.
-            </p>
-            <p>
-              One of the projects I've been involved in is
-              <a href="http://2015.medieteknikdagarna.se/">Medieteknikdagarna.se</a>,
-              the website for the non-profit career days of the media technology programme at LiU.
-            </p>
-          </div>
-        </div>
-      </div>
-      <a href="#third" class="chevron hidden-xs" data-toggle="scroll">
-        <span class="glyphicon glyphicon-chevron-down"></span>
-      </a>
-    </section>
-    <section id="third" class="card">
-      <a href="#first" class="chevron hidden-xs" data-toggle="scroll">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-      </a>
-    </section>
-
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
-
-    // remove loading overlay
-    $(window).load(function(){
-      $('body, html').scrollTop(0);
-      $("#loader").fadeToggle({display:"none"}, "slow");
-    });
-
-    $('a[data-toggle="scroll"]').click(function(event){event.preventDefault();$('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);});
-
-    var colors = ['#f4d0ad', '#abe7f4', '#f7ca7d', '#91f9d3', '#f8c075', '#b2fad7',
-            '#dbdbdb', '#fddcae', '#fb9d79', '#a0e3ff', '#abe7f4', '#CCCCCC',
-            '#C5BEB6', '#3E6187'];
-    var color = colors[Math.floor(Math.random()*colors.length)];
-    $('#second').css("background-color", color);
-    </script>
   </body>
 </html>
